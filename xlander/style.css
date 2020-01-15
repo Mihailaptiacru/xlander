@@ -1,98 +1,177 @@
 body {
-    font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .contanier {
-    width: 1100px;
-    margin: auto;
+  width: 1100px;
+  margin: auto;
 }
 
 #header {
-    position: relative;
-    background-image: radial-gradient(#000c 40%, #0005 41%);
-    background-size: 3px 3px;
-    height: 100vh;
-    color: white;
+  position: relative;
+  background-image: radial-gradient(#000c 40%, #0005 41%);
+  background-size: 3px 3px;
+  height: 100vh;
+  color: white;
 }
 
 #header nav {
-    background-color: #0008;
-    margin-bottom: 10vh;
+  background-color: #0008;
+  margin-bottom: 10vh;
+}
 
+#header nav ul {
+  position: relative;
+  left: 300px;
 }
 
 #header nav li {
-    display: inline-block;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    vertical-align: middle;
-    padding-left: 1.4em;
-
+  display: inline-block;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  vertical-align: middle;
+  padding-left: 1.4em;
 }
 
 #header nav li a {
-    color: white;
-    font-size: 20px;
-    text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
+#header nav li a:hover {
+  color: goldenrod;
+}
+
+#header nav .logo {
+  transform: translateX(-315px);
+}
 #header nav .logo a {
-    font-size: 2em;
+  font-size: 2em;
+}
+#header nav .logo a:hover {
+  color: white;
+}
+#header nav .logo span {
+  text-transform: lowercase;
+  color: goldenrod;
 }
 
 #header .bg-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
-
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
 }
 
 #header article {
-    display: inline-block;
-    width: 66%;
-    vertical-align: top;
+  display: inline-block;
+  width: 66%;
+  vertical-align: top;
 }
 
 #header form {
-    display: inline-block;
-    width: 33%;
-    /*Acesata propietate lucreaaz numai in inlone-block sau table, in restu lucreaza prost*/
-    vertical-align: top;
-    /*Alinieaza pe verticala*/
+  display: inline-block;
+  width: 30%;
+  height: 280px;
+  /*Acesata propietate lucreaaz numai in inlone-block sau table, in restu lucreaza prost*/
+  vertical-align: top;
+  /*Alinieaza pe verticala*/
+  background-color: #0007;
+  padding: 15px;
+  position: relative;
+  top: 20px;
+}
+
+#header form h3 {
+  text-align: center;
+  font-size: 20px;
+  transform: scaleX(1.5);
+  font-weight: 200;
+}
+#header form input {
+  margin-top: 15px;
+  width: 99%;
+  height: 30px;
+  border-radius: 3px;
+  background-color: white;
+  border: none;
+}
+#header form p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+#header form button {
+  position: absolute;
+  left: 105px;
+  bottom: 15px;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 #header article h1 {
-    font-size: 80px;
-    text-transform: uppercase;
-    font-weight: 900;
-    line-height: 1.3em;
-    transform: scaleX(1.5);
-    /* Punctu de unde are marimea(scale), il indreptam in sttinga spre dreapta */
-    transform-origin: left;
-    padding-right: 30%;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 1.3em;
+  transform: scaleX(1.5);
+  /* Punctu de unde are marimea(scale), il indreptam in sttinga spre dreapta */
+  transform-origin: left;
+  padding-right: 30%;
 }
 
 #header article h2 {
-    font-size: 27px;
-    text-transform: uppercase;
-    font-weight: 600;
-    line-height: 1.1em;
-    padding-top: 25px;
-    transform: scaleX(1.5);
-    transform-origin: left;
-    padding-right: 30%;
+  font-size: 27px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1.1em;
+  padding-top: 25px;
+  transform: scaleX(1.5);
+  transform-origin: left;
+  padding-right: 30%;
 }
 
 #header article p {
-    font-size: 21px;
-    line-height: 1.3em;
-    padding-top: 25px;
-    padding-right: 10%;
+  font-size: 21px;
+  line-height: 1.3em;
+  padding-top: 25px;
+  padding-right: 10%;
+}
+
+#header article div {
+  display: inline-block;
+  margin-left: -10px;
+}
+#header article div a {
+  display: inline-block;
+  width: 180px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: goldenrod;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 20px;
+  color: black;
+}
+#header article div a p {
+  position: absolute;
+  left: 55px;
+  bottom: 7px;
+  transform: scaleX(1.7);
+  font-size: 17px;
+  font-weight: lighter;
 }
