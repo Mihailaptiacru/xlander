@@ -1,0 +1,65 @@
+@media screen and (max-width:500px) {
+    .contanier {
+        width: 90%;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    #header {
+        height: 135vh;
+    }
+
+    #header nav li {
+        display: none;
+    }
+
+    #header nav .logo {
+        display: inline-block;
+
+    }
+
+    #header nav .logo a {
+        font-size: 1.5em;
+    }
+
+    #header article {
+        width: 100%;
+        text-align: center;
+    }
+
+    #header article h1 {
+        font-size: 50px;
+    }
+
+    #header article h2 {
+        font-size: 17px;
+    }
+
+    #header article p {
+        font-size: 15px;
+    }
+
+    #header form {
+        width: 90%;
+        text-align: center;
+    }
+
+    #header .bg-video {
+        height: 135vh;
+    }
+
+    #header nav li {
+        text-align: left;
+    }
+
+    #header nav .burger {
+        display: inline-block;
+        text-align: left;
+    }
+
+    #header nav .logo {
+        text-align: left;
+    }
+}
